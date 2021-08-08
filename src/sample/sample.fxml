@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="794.0" style="-fx-background-color: #211410;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="492.0" layoutY="58.0" prefHeight="349.0" prefWidth="268.0" style="-fx-background-color: #9F3423;">
+         <children>
+            <JFXTextField focusColor="WHITE" layoutX="25.0" layoutY="100.0" prefHeight="25.0" prefWidth="218.0" promptText="username/email" styleClass="JFXTextField" stylesheets="@Style.css" unFocusColor="#a19898" />
+            <JFXPasswordField focusColor="WHITE" layoutX="31.0" layoutY="162.0" prefHeight="25.0" prefWidth="218.0" promptText="password" styleClass="JFXTextField" stylesheets="@Style.css" unFocusColor="#a19898" />
+            <JFXButton layoutX="31.0" layoutY="230.0" prefHeight="25.0" prefWidth="218.0" style="-fx-background-color: #E65F4E;" text="Sign In" textFill="#e4e4e4" />
+            <Label layoutX="112.0" layoutY="44.0" text="Sign in" textFill="#bfbcbc">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="290.0" text="Forgot Password ?" textFill="#bfbcbc" underline="true" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="462.0" fitWidth="471.0" layoutY="1.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/myAX01.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="59.0" layoutY="160.0" text="Welcome to TechnoGram" textFill="#d7d3d3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="214.0" text="Anything you need to know about Java Swing&#10;and JavaFX Enroll now." textFill="#d7d3d3" />
+      <JFXButton layoutX="59.0" layoutY="266.0" prefHeight="25.0" prefWidth="129.0" style="-fx-background-color: #E65F4E;" text="Sign Up" textFill="#e4e4e4" />
+      <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="765.0" layoutY="4.0" onMouseClicked="#handleClose" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/delete_8px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

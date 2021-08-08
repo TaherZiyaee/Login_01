@@ -1,0 +1,5 @@
+
+.JFXTextField {
+    -fx-prompt-text-fill: #bfbcbc;
+    -fx-text-fill: white;
+}
